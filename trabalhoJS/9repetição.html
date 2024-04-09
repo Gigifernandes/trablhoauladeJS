@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <link  href="style.css" rel="stylesheet" >
+  
+  <!--fonte poppins -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+ 
+  <title>Aula Javascript</title>
+</head>
+
+
+  <body class="bg-warning">
+
+    <!-- Aqui está o cabeçalho -->
+      <nav class="navbar navbar-light bg-warning">
+        <div class="container-fluid">
+          <h2></h2> <!-- para deixar o texto no centro-->
+          <div id="início">
+          <h2 class="aprender">Estruturas de repetição no: </h2>
+          <div class="javascript">
+          <h2><span class="Java">J</span>ava <span class="Script">S</span>cript</h2>
+          </div>
+          </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end text-bg-dark bg-warning" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+              <h6 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Veja aqui todas as páginas</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="2primeirospassos.html">Primeiros Passos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="3jsdom.html">Sobre o DOM </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="4variavel.html">Variáveis</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="5matematicos.html">Operadores matemáticos </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="6comparação.html">Operadores de comparação </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="7logicos.html">Operadores lógicos </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="8condicionais.html">Estruturas condicionais</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="9repetição.html">Estruturras de repetição </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <!--  aqui ficará todo o texto  -->
+    <main>
+
+        <h5>
+          Não tem problema tentar de novo, mas não repita o mesmo erro da ultima vez...          
+        </h5>
+          <br>
+          <div class="container">
+            <img src="img/52img.png" class="im6">
+          </div>
+          <br>
+          <h2>Estruturas  de repetição </h2> 
+          <h5>
+            Estruturas de repetição em JavaScript são usadas para executar um bloco de código repetidamente até que uma condição seja atendida. Existem dois tipos principais de estruturas de repetição no JavaScript: fore  e while. Vamos ver como elas funcionam:
+          </h5>
+          <h2>While</h2>
+
+              <h5>
+                Podemos utilizar a estrutura de repetição while caso seja necessário repetir um bloco de comandos por N vezes.
+              </h5>
+          <br>
+          <div class="container">
+            <img src="img/53img.png" class="im21">
+          </div>
+          <br>
+              <h5>
+                A sintaxe do while, como vemos no exemplo acima, é bem simples. Utilizamos a palavra reservada while , logo em seguida precisamos passar uma condição que será atendida enquanto ela retornar true, ou seja, verdadeiro.
+                Neste caso, simulamos a tabuada do 5, a variável i é o nosso contador, iniciamos ela com o valor 0 , portanto a condição será verdadeira até que ela atinja o valor 11, e por isso ela é iterada a cada repetição - i++, ao atingir tal valor o laço é quebrado.
+              </h5>
+          <br>
+              <h2>Do While</h2>
+              <h5>
+                O do-while tem o mesmo conceito que o while com uma única diferença, a condição é verificada após os comandos do bloco serem executados, ou seja, mesmo que a condição seja falsa, é garantia que o bloco será executado ao menos uma vez.
+                Podemos testar da seguinte forma:
+              </h5>
+        <br>
+        <div>
+          <img src="img/54img.png" class="im54">
+        </div>
+        <br>
+              <h5>
+                A variável contador foi inicializada com o valor 0 e o while está com a condição contador == 1 ou seja, a condição é falsa e utilizando o while nosso bloco de comandos não seria executado. Porém podemos perceber que ao utilizar do-while, o bloco vem antes da verificação da condição, com isso ele garante que o bloco de comandos seja executado ao menos uma vez.
+              </h5>
+        <br>
+          <h2>For</h2>
+              <h5>
+                A estrutura de repetição for no JavaScript segue o mesmo princípio que o while, porém este recurso é mais utilizado quando se sabe o número de iterações da repetição, como ao percorrer um vetor, por exemplo:
+              </h5>
+        <br>
+        <div>
+          <img src="img/55img.png" class="im55">
+        </div>
+        <br>
+              <h5>
+                Para utilizar o for, usamos a palavra-chave for seguida de três declarações, primeiramente iniciamos a variável que será o controlador do nosso laço de repetição, logo em seguida precisamos informar a condição a ser atendida e, por último, uma expressão que será executado ao final de cada iteração do for, normalmente utilizamos para incrementar a variável que será utilizada como controlador do nosso laço.
+              </h5>
+              <br>
+              <!--  aqui ficará o botão de finalizção -->
+              <div class="button">
+                <a href="index.html" target="_blank">
+                <button type="button" class="btn btn-primary">VOLTAR PARA O INÍCIO</button>
+                </a>
+            </div>
+  </body>
+</html>

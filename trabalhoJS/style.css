@@ -1,0 +1,221 @@
+
+*{
+ font-family: "Poppins" ;
+}
+#início{
+    text-align: center;
+    margin-top: 30px ;
+}
+.Java{
+    font-size: 50px;
+}
+.Script{
+   font-size: 50px;
+}
+.javascript > h2{
+    font-family:"Playfair";
+    font-size: 56px;
+}
+main{
+ width: 70vw;
+ margin: auto;
+ background-color: black;
+ color: rgb(246, 232, 255);
+ border-radius: 40px;
+ padding:  55px 100px;
+}
+main > h2{
+ text-align: center;
+}
+
+h5{
+    text-align: justify;
+}
+.button{
+  display: flex;
+  flex-direction: row;
+ justify-content: center;
+}
+/* aqui é a parte do menu */
+.nav-link{
+   font-size: 18px;   
+}
+.nav-item{
+    padding: 0% 5%; 
+}
+.nav-item:hover{
+    background-color:rgb(255, 228, 228); 
+}
+.offcanvas-title{
+    font-weight: 600;
+    font-size: 22px;
+    margin: auto;
+ }
+ 
+
+ /* imagem 1 */
+
+ .container {
+    position: relative;
+    text-align: center;
+  }
+ 
+  .im {
+    position: absolute;
+    top: -30px;
+    right: 10%;
+    transform: rotate(30deg);
+    height: 120px;
+    width: 190px;
+  }
+
+  /* imagem 2 e imagem 4 */
+
+  .im2 {
+    position: center;
+    height: 90%;
+    width: 60%;
+  }
+
+  /* imagem 3*/
+  .im3 {
+    position: absolute;
+    top: -35px;
+    right: 10%;
+    height: 165px;
+    width: 150px;
+  }
+
+  /* imagem 5 */
+
+  .im5 {
+    top: 100px;
+    height: 40%;
+    width: 80%;
+  }
+
+
+  /* imagem 6 */
+
+  .im6 {
+    position: relative;
+    height: 70%;
+    width: 60%;
+  }
+ /* imagem 7*/
+ .im7 {
+    position: absolute;
+    top: -15px;
+    right: 200px;
+    height: 100px;
+    width: 120px;
+  }
+
+  /* imagem 8 */
+
+  .im8 {
+    position: relative;
+    top: 0px;
+    right: 90px;
+    height: 200px;
+    width: 700px;
+  }
+/* imagem 14 */
+
+.im14 {
+  position: relative;
+  top: 0px;
+  right: 300px;
+  height: 50px;
+  width: 300px;
+}
+
+/* imagem 16*/
+
+.im16 {
+  position: relative;
+  top: 0px;
+  right: 167px;
+  height: 170px;
+  width: 550px;
+}
+  
+/* imagem 17*/
+
+.im17 {
+  position: relative;
+  top: 0px;
+  right: 167px;
+  height: 200px;
+  width: 550px;
+}
+
+/* imagem 21 */
+
+.im21 {
+  position: relative;
+  top: 0px;
+  right: 200px;
+  height: 100px;
+  width: 500px;
+}
+/* imagem 22*/
+
+.im22 {
+  position: relative;
+  top: 0px;
+  right: 200px;
+  height: 120px;
+  width: 530px;
+}
+/* imagem 27*/
+.im27 {
+  position: relative;
+  top: 0px;
+  right: 200px;
+  height: 80px;
+  width: 500px;
+}
+/* imagem 40 */
+
+.im40 {
+  position: relative;
+  top: 0px;
+  right: 200px;
+  height: 150px;
+  width: 500px;
+}
+/* imagem 42 */
+
+.im42 {
+  position: relative;
+  top: 0px;
+  right: 200px;
+  height: 250px;
+  width: 500px;
+}
+/* imagem 51 */
+
+.im51 {
+  position: relative;
+  top: 0px;
+  right: 200px;
+  height: 300px;
+  width: 500px;
+}
+/* imagem 54 */
+
+.im54 {
+  position: relative;
+  top: 0px;
+  height: 150px;
+  width: 500px;
+}
+/* imagem 55 */
+
+.im55 {
+  position: relative;
+  top: 0px;
+  height: 80px;
+  width: 450px;
+}

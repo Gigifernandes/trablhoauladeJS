@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <link  href="style.css" rel="stylesheet" >
+  
+  <!--fonte poppins -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+ 
+  <title>Aula Javascript</title>
+</head>
+
+   <!-- Aqui está o cabeçalho -->
+   <body class="bg-warning">
+    <nav class="navbar navbar-light bg-warning">
+      <div class="container-fluid">
+        <h2></h2> <!-- gambiarra -->
+         <div id="início">
+         <h2 class="aprender">Operadores lógicos no:</h2>
+            <div class="javascript">
+         <h2><span class="Java">J</span>ava <span class="Script">S</span>cript</h2>
+            </div>
+         </div>
+
+        <!-- menu -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end text-bg-dark bg-warning" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+          <div class="offcanvas-header">
+            <h6 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Veja aqui todas as páginas</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link active" href="2primeirospassos.html">Primeiros Passos</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link active" href="3jsdom.html">Sobre o DOM </a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link active" href="4variavel.html">Variáveis</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link active" href="5matematicos.html">Operadores matemáticos </a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link active" href="6comparação.html">Operadores de comparação </a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link active" href="7logicos.html">Operadores lógicos </a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link active" href="8condicionais.html">Estruturas condicionais</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link active" href="9repetição.html">Estruturras de repetição </a>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+        
+    <!--  aqui ficará todo o texto  -->
+    <main>
+
+      <!--  aqui ficará uma frase motivante -->
+      <h4>Não deixe ninguém lhe dizer que você não pode aprender JavaScript. Com muito trabalho e dedicação, você pode dominá-lo e alcançar seus objetivos!</h4>
+      <br>
+      <div class="container">
+        <img src="img/43img.png" class="im6">
+      </div>
+      <br>
+      <!--  aqui ficarão as explicações -->
+      <h2>Estruturas de repetição</h2> 
+      <br>
+        <h5>
+          Você pode fazer qualquer coisa se se dedicar, e o JavaScript não é exceção. Continue aprendendo e crescendo!        
+        </h5>
+      <br>
+      <h2>O que são?</h2>
+          <h5>
+            Operadores lógicos em JavaScript são usados ​​para combinar expressões verdadeiras ou falsas e produzir um valor verdadeiro ou falso como resultado. Existem três operadores lógicos em JavaScript: AND (&&), OR (||) e NOT (!)
+            Cada operador lógico tem uma função específica:
+            - AND (&&) retorna verdadeiro se todas as expressõe forem verdade
+            - OR (||) retorna verdadeiro se pelo menos uma das expressões for verdade 
+            - NOT (!) ele faz a inverção do valor da expressão. NOT retorna falsa a expreção se ela for verdadeira e vice-versa. 
+          </h5>
+      <br>
+          <h2>AND</h2>
+      <br>
+      <div class="container">
+       <img src="img/44img.png" class="im21">
+      </div>
+      <br>
+          <h5>
+            No exemplo acima, a variável `a` é verdadeira e a variável `b` é falsa. A expressão `a && b` retorna false, pois ambos os valores não são verdadeiros.
+            Uma forma comum de utilizar o operador AND é em estruturas condicionais, como o if.
+          </h5>
+      <br>
+      <div class="container">
+        <img src="img/45img.png" class="im42">
+      </div>
+      <br>
+          <h5>
+            Nesse caso, o código verifica se a idade é maior ou igual a 18 e se a pessoa possui CNH. Somente se ambas as condições forem verdadeiras, a mensagem “Pode dirigir” será exibida.          
+          </h5>
+       <br>
+      <h2>OR</h2>
+      <br>
+      <div class="container">
+        <img src="img/46img.png" class="im40">
+      </div>
+      <br>
+          <h5>
+            No exemplo acima, a variável `a` é verdadeira, enquanto a variável `b` é falsa. A expressão `a || b` retorna true, pois pelo menos um dos valores é verdadeiro.  
+            O operador OR também pode ser utilizado em estruturas condicionais.        
+          </h5>
+      <br>
+      <div class="container">
+        <img src="img/47img.png" class="im42">
+      </div>
+      <br>
+          <h5>
+            Nesse caso, o código verifica se o saldo é maior ou igual a zero ou se o limite é maior que zero. Se pelo menos uma dessas condições for verdadeira, a mensagem “Pode fazer a compra” será exibida.          
+          </h5>
+      <h2>NOT</h2>
+          <h5>
+            Aqui está um exemplo de teste do operador lógico NOT em JavaScript:          
+          </h5>
+      <br>
+      <div class="container">
+        <img src="img/48img.png" class="im8">
+      </div>
+      <br>
+          <h5>
+            Neste exemplo, a variável idade é definida como 18. O operador lógico NOT ( !) é utilizado para verificar se a idade não é maior ou igual a 18. Se a condição for verdadeira, o bloco de código dentro do if será executado e uma mensagem será impressa sem console. Caso contrário, o bloco de código dentro else será executado e outra mensagem será impressa no console.         
+          </h5>
+          <br>
+              <div class="button">
+                <a href="8condicionais.html" target="_blank">
+                <button type="button" class="btn btn-primary">QUERO APRENDER (JS) </button>
+                </a>
+             </div>
+      </main>
+    </body>
+    </html>
